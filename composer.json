@@ -1,0 +1,19 @@
+{
+    "name": "manager2/pars",
+    "autoload": {
+        "psr-4": {
+            "Manager2\\Pars\\": "src/"
+        }
+    },
+    "require-dev": {
+        "simplehtmldom/simplehtmldom": "dev-master"
+    },
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "guzzlehttp/guzzle": "^7.10",
+        "symfony/dom-crawler": "^6.4",
+        "symfony/css-selector": "^6.4",
+        "voku/simple_html_dom": "^4.8",
+        "phpquery/phpquery": "^0.0.4"
+    }
+}
